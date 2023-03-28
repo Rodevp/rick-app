@@ -1,19 +1,21 @@
-import { View, StyleSheet } from 'react-native'
+import { SafeAreaView } from "react-native-safe-area-context"
+import { StyleSheet } from 'react-native'
 import Header from '../widgets/Header'
+import theme from '../theme'
 
 export default function Home() {
   return (
-    <View
+    <SafeAreaView
         style={styles.home}
     >
         <Header />
-    </View>
+    </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
     home: {
         flex: 1,
-        backgroundColor: "red"
+        backgroundColor: theme.colors.background
     }
 })
