@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 30,
         width: "60%",
-        fontWeight: '500'
+        fontWeight: '500',
+        textAlign: "center"
     }
 })
 

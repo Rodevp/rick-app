@@ -18,7 +18,11 @@ const styles = StyleSheet.create({
         height: 21,
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 21
+        borderRadius: 21,
+        position: "absolute",
+        top: -8,
+        left: 16,
+        zIndex: 1,
     },
     text: {
         color: theme.colors.background,
