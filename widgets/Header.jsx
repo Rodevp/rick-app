@@ -9,8 +9,6 @@ export default function Header() {
             style={{
                 ...styles.header,
                 backgroundColor: theme.colors.background,
-                borderColor: "black",
-                borderWidth: 1
             }}
         >
             <Logo />
