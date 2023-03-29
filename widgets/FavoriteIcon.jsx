@@ -1,7 +1,7 @@
 import { View, StyleSheet } from 'react-native'
-import { MaterialIcons } from '@expo/vector-icons';
-import theme from '../theme';
-import Badget from './Badget';
+import { MaterialIcons } from '@expo/vector-icons'
+import theme from '../theme'
+import Badget from './Badget'
 
 export default function FavoriteIcon() {
   return (
