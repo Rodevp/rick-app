@@ -13,7 +13,7 @@ function Stack() {
                 headerShown: false
             }}
         >
-            <NavigatorStack.Screen name='Home' component={Tabs} />
+            <NavigatorStack.Screen name='Home' component={DetailCharacter} />
             <NavigatorStack.Screen name='Favorites' component={Favs} />
             <NavigatorStack.Screen name='DetailCharacter' component={DetailCharacter} />
         </NavigatorStack.Navigator>
