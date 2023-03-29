@@ -1,4 +1,5 @@
 import { createStackNavigator } from '@react-navigation/stack'
+import DetailCharacter from '../screens/DetailCharacter'
 import Favs from '../screens/Favs'
 import Tabs from './BottomTabs'
 
@@ -14,7 +15,7 @@ function Stack() {
         >
             <NavigatorStack.Screen name='Home' component={Tabs} />
             <NavigatorStack.Screen name='Favorites' component={Favs} />
-            
+            <NavigatorStack.Screen name='DetailCharacter' component={DetailCharacter} />
         </NavigatorStack.Navigator>
     )
 }
